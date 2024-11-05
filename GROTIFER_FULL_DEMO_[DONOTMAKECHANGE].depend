@@ -1,0 +1,1033 @@
+# depslib dependency file v1.0
+1697600804 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/FullClosedLoopControl_Ver33_Demo_DONOTCHANGE.cpp
+	<iostream>
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+	"Master Library/GrotiferMaster.hpp"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferMaster.hpp
+	<math.h>
+	"GrotiferSoftware/AttitudeDetermination/AttitudeDetermination.hpp"
+	"GrotiferSoftware/SoftwareFunctions/SoftwareFunctions.hpp"
+	"GrotiferSoftware/SoftwareFunctions/MovingAverage.h"
+	"GrotiferHardware/Sensors.hpp"
+	"GrotiferHardware/Actuators.hpp"
+	"GrotiferHardware/Definitions.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/AttitudeDetermination.hpp
+	"Eigen/Dense"
+	"Eigen/Geometry"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Dense
+	"Core"
+	"LU"
+	"Cholesky"
+	"QR"
+	"SVD"
+	"Geometry"
+	"Eigenvalues"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Core
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Core/util/Macros.h"
+	"src/Core/util/ConfigureVectorization.h"
+	<cuda_runtime.h>
+	<hip/hip_runtime.h>
+	<new>
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+	<sstream>
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+	<array>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	<CL/sycl.hpp>
+	<map>
+	<memory>
+	<utility>
+	<thread>
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+	"src/Core/util/IntegralConstant.h"
+	"src/Core/util/SymbolicIndex.h"
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+	"src/Core/arch/Default/ConjHelper.h"
+	"src/Core/arch/Default/Half.h"
+	"src/Core/arch/Default/BFloat16.h"
+	"src/Core/arch/Default/TypeCasting.h"
+	"src/Core/arch/Default/GenericPacketMathFunctionsFwd.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/TypeCasting.h"
+	"src/Core/arch/AVX512/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+	"src/Core/arch/NEON/TypeCasting.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/SVE/PacketMath.h"
+	"src/Core/arch/SVE/TypeCasting.h"
+	"src/Core/arch/SVE/MathFunctions.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/MSA/PacketMath.h"
+	"src/Core/arch/MSA/MathFunctions.h"
+	"src/Core/arch/MSA/Complex.h"
+	"src/Core/arch/GPU/PacketMath.h"
+	"src/Core/arch/GPU/MathFunctions.h"
+	"src/Core/arch/GPU/TypeCasting.h"
+	"src/Core/arch/SYCL/SyclMemoryModel.h"
+	"src/Core/arch/SYCL/InteropHeaders.h"
+	"src/Core/arch/SYCL/PacketMath.h"
+	"src/Core/arch/SYCL/MathFunctions.h"
+	"src/Core/arch/SYCL/TypeCasting.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/arch/Default/GenericPacketMathFunctions.h"
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+	"src/Core/util/IndexedViewHelper.h"
+	"src/Core/util/ReshapedHelper.h"
+	"src/Core/ArithmeticSequence.h"
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+	"src/Core/IndexedView.h"
+	"src/Core/Reshaped.h"
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+	"src/Core/arch/AltiVec/MatrixProduct.h"
+	"src/Core/arch/NEON/GeneralBlockPanelKernel.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/PartialReduxEvaluator.h"
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+	"src/Core/StlIterators.h"
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/DisableStupidWarnings.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/Macros.h
+	<cuda.h>
+	<hip/hip_runtime.h>
+	<cmath>
+	<cstdlib>
+	<iostream>
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/ConfigureVectorization.h
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<arm_sve.h>
+	<vecintrin.h>
+	<msa.h>
+	<arm_fp16.h>
+	<immintrin.h>
+	<vector_types.h>
+	<cuda_runtime_api.h>
+	<cuda_fp16.h>
+	<hip/hip_vector_types.h>
+	<hip/hip_fp16.h>
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/MKL_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/blas.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/Constants.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/Meta.h
+	<cfloat>
+	<math_constants.h>
+	"Eigen/src/Core/arch/HIP/hcc/math_constants.h"
+	<cstdint>
+	<stdint.h>
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/ForwardDeclarations.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/StaticAssert.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/XprHelper.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/Memory.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/IntegralConstant.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/SymbolicIndex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/NumTraits.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/MathFunctions.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/GenericPacketMath.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/MathFunctionsImpl.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/ConjHelper.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/Half.h
+	<sstream>
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/BFloat16.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SSE/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SSE/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SSE/Complex.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX/PacketMath.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX/TypeCasting.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX/Complex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX512/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX512/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX512/Complex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SSE/MathFunctions.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AVX512/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/Complex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/NEON/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/NEON/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/NEON/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/NEON/Complex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SVE/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SVE/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SVE/MathFunctions.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/ZVector/PacketMath.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/ZVector/MathFunctions.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/ZVector/Complex.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/MSA/PacketMath.h
+	<iostream>
+	<string>
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/MSA/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/MSA/Complex.h
+	<iostream>
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/GPU/PacketMath.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/GPU/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/GPU/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+	<CL/sycl.hpp>
+	<stdexcept>
+	<cstddef>
+	<queue>
+	<set>
+	<unordered_map>
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SYCL/PacketMath.h
+	<type_traits>
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SYCL/MathFunctions.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/SYCL/TypeCasting.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/Settings.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/TernaryFunctors.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/BinaryFunctors.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/UnaryFunctors.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/NullaryFunctors.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/StlFunctors.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/functors/AssignmentFunctors.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/CUDA/Complex.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/IndexedViewHelper.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/ReshapedHelper.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ArithmeticSequence.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/IO.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/DenseCoeffsBase.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/DenseBase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/BlockMethods.h"
+	"../plugins/IndexedViewMethods.h"
+	"../plugins/ReshapedMethods.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/CommonCwiseUnaryOps.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/BlockMethods.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/IndexedViewMethods.h
+	"IndexedViewMethods.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/ReshapedMethods.h
+	"ReshapedMethods.h"
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/MatrixBase.h
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/CommonCwiseBinaryOps.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/EigenBase.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Product.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CoreEvaluators.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/AssignEvaluator.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Assign.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ArrayBase.h
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/BlasUtil.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/DenseStorage.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/NestByValue.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ReturnByValue.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/NoAlias.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/PlainObjectBase.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Matrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Array.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CwiseTernaryOp.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CwiseBinaryOp.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CwiseUnaryOp.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CwiseNullaryOp.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CwiseUnaryView.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/SelfCwiseBinaryOp.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Dot.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/StableNorm.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Stride.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/MapBase.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Map.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Ref.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Block.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/VectorBlock.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/IndexedView.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Reshaped.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Transpose.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/DiagonalMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Diagonal.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/DiagonalProduct.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Redux.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Visitor.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Fuzzy.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Swap.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CommaInitializer.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/GeneralProduct.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Solve.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Inverse.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/SolverBase.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/PermutationMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Transpositions.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/TriangularMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/SelfAdjointView.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/Parallelizer.h
+	<atomic>
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ProductEvaluators.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixVector.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixMatrix.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/SolveTriangular.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointMatrixVector.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointProduct.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointRank2Update.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularMatrixVector.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularMatrixMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularSolverMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularSolverVector.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/BandMatrix.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/CoreIterators.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ConditionEstimator.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+	"MatrixProductCommon.h"
+	"MatrixProductMMA.h"
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+
+1697545198 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/BooleanRedux.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Select.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/VectorwiseOp.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/PartialReduxEvaluator.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Random.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Replicate.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Reverse.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/ArrayWrapper.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/StlIterators.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/Assign_MKL.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/GlobalFunctions.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Core/util/ReenableStupidWarnings.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/LU
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/InverseSize4.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/Kernel.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/Image.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/FullPivLU.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/PartialPivLU.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/lapacke_mangling.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/PartialPivLU_LAPACKE.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/Determinant.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/InverseImpl.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/LU/arch/InverseSize4.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Cholesky
+	"Core"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Jacobi/Jacobi.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Cholesky/LLT.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Cholesky/LDLT.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Cholesky/LLT_LAPACKE.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/QR
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Householder/Householder.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Householder/HouseholderSequence.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Householder/BlockHouseholder.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/HouseholderQR.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/FullPivHouseholderQR.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/ColPivHouseholderQR.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/HouseholderQR_LAPACKE.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/SVD
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/misc/RealSvd2x2.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/SVD/UpperBidiagonalization.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/SVD/SVDBase.h
+
+1697545197 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/SVD/JacobiSVD.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/SVD/BDCSVD.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Geometry
+	"Core"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SIMD.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/OrthoMethods.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/EulerAngles.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Homogeneous.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/RotationBase.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Rotation2D.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Quaternion.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/AngleAxis.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Transform.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Translation.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Scaling.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Hyperplane.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/ParametrizedLine.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/AlignedBox.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/Umeyama.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Geometry/arch/Geometry_SIMD.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/Eigenvalues
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/Tridiagonalization.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/RealSchur.h
+	"./HessenbergDecomposition.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/EigenSolver.h
+	"./RealSchur.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+	"./Tridiagonalization.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+	"./Tridiagonalization.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/ComplexSchur.h
+	"./HessenbergDecomposition.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+	"./ComplexSchur.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/RealQZ.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+	"./RealQZ.h"
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/SoftwareFunctions/SoftwareFunctions.hpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+
+1697545199 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/SoftwareFunctions/MovingAverage.h
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/Sensors.hpp
+	<iostream>
+	<modbus/modbus-rtu.h>
+	"u6.h"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/u6.h
+	<sys/time.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	"labjackusb.h"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/Actuators.hpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+	"Definitions.h"
+
+1697545196 /home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/Definitions.h
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/Actuators.cpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+	"Definitions.h"
+	"Actuators.hpp"
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/Sensors.cpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+	<modbus/modbus-rtu.h>
+	"u6.h"
+	"Sensors.hpp"
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferHardware/u6.c
+	"u6.h"
+	<stdlib.h>
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/AngVelClass.cpp
+	"AttitudeDetermination.hpp"
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/asa047.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<ctime>
+	<cmath>
+	"AttitudeDetermination.hpp"
+
+1697545199 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/BackwardSolClass.cpp
+	"AttitudeDetermination.hpp"
+
+1697545196 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/AttitudeDetermination/ForwardSolClass.cpp
+	"Eigen/Dense"
+	"Eigen/Geometry"
+	"AttitudeDetermination.hpp"
+
+1697545199 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/SoftwareFunctions/MovingAverage.cpp
+	"MovingAverage.h"
+
+1697545199 source:/home/pi/Desktop/GROTIFER_FULL_DEMO_[DONOTMAKECHANGE]/Master Library/GrotiferSoftware/SoftwareFunctions/SoftwareFunctions.cpp
+	<unistd.h>
+	<iostream>
+	<string>
+	<string.h>
+	<time.h>
+	<fstream>
+	<iomanip>
+	<math.h>
+	<cmath>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<errno.h>
+	<signal.h>
+	<stdlib.h>
+	"SoftwareFunctions.hpp"
+
