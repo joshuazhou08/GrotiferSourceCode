@@ -1,0 +1,92 @@
+yMomMotor      0x             34000007        - Serial data frame not received. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:27 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:28 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:28 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:28 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:28 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:29 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:30 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:30 2023
+
+yMomMotor      0x             34000006        - Serial data frame not written. [Time Stamp]:  Tue Oct 17 20:20:30 2023
+
